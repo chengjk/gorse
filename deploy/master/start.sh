@@ -3,5 +3,5 @@
 APP_HOME /dianyi/app/gorse
 cd $APP_HOME
 # set PROFILE by gears
-./gorse-master -c gorse-rec/deploy/config-$PROFILE.toml --log-path /var/log/gorse/master.log --cache-path /var/lib/gorse
+./gorse-master -c config-$PROFILE.toml --log-path /dianyi/log/gorse/master.log --cache-path /var/lib/gorse
 
