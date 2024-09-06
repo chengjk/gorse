@@ -13,7 +13,7 @@ RUN cd cmd/gorse-worker && \
        -X 'github.com/zhenghaoz/gorse/cmd/version.BuildTime=$(date)'" .
 
 RUN mv $APP_HOME/cmd/gorse-worker/gorse-worker .
-RUN cp $APP_HOME/deploy/master/start.sh .
+RUN cp $APP_HOME/deploy/worker/start.sh .
 RUN cp $APP_HOME/deploy/*.toml .
 RUN ./gorse-worker --version
 
