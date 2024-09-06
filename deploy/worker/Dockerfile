@@ -15,7 +15,7 @@ RUN cd cmd/gorse-worker && \
 RUN mv $APP_HOME/cmd/gorse-worker/gorse-worker .
 RUN cp $APP_HOME/deploy/master/start.sh .
 RUN cp $APP_HOME/deploy/*.toml .
-RUN ./gorse-master --version
+RUN ./gorse-worker --version
 
 CMD ["bash", "-c", "$APP_HOME/start.sh"]
 

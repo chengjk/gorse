@@ -15,7 +15,7 @@ RUN cd cmd/gorse-server && \
 RUN mv $APP_HOME/cmd/gorse-server/gorse-server .
 RUN cp $APP_HOME/deploy/master/start.sh .
 RUN cp $APP_HOME/deploy/*.toml .
-RUN ./gorse-master --version
+RUN ./gorse-server --version
 
 CMD ["bash", "-c", "$APP_HOME/start.sh"]
 
