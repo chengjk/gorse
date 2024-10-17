@@ -7,7 +7,7 @@
 #   postgresql://bob:secret@1.2.3.4:5432/mydb?sslmode=verify-full
 #   mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
 #   mongodb+srv://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
-cache_store = "mongodb://172.30.10.98:27017/gorse_cache"
+cache_store = "mongodb://pro_gorse_rw:AovrAc!CCP2cT8sg6$zd@10.90.0.21:27017,10.90.0.22:27017:27017/gorse_cache"
 
 # The database for persist data, support MySQL, Postgres and MongoDB:
 #   mysql://[username[:password]@][protocol[(address)]]/dbname[?param1=value1&...&paramN=valueN]
@@ -15,7 +15,7 @@ cache_store = "mongodb://172.30.10.98:27017/gorse_cache"
 #   postgresql://bob:secret@1.2.3.4:5432/mydb?sslmode=verify-full
 #   mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
 #   mongodb+srv://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
-data_store = "mongodb://172.30.10.98:27017/gorse"
+data_store = "mongodb://pro_gorse_rw:AovrAc!CCP2cT8sg6$zd@10.90.0.21:27017,10.90.0.22:27017:27017/gorse"
 
 # The naming prefix for tables (collections, keys) in databases. The default value is empty.
 table_prefix = ""
